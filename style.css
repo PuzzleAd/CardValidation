@@ -221,6 +221,8 @@ input::placeholder {
     font-weight: 500;
     line-height: 22.97px;
     color: #21092F;  
+    border: 1px solid #ADB5BE;
+
 }
 
 .button {
@@ -269,4 +271,20 @@ input::placeholder {
     font-size: 18px;
     font-weight: 500;
     line-height: 22.97px;
+}
+
+
+.emptyString {
+
+    border: 1px solid red  !important;
+
+}
+
+.blankText {
+    font-family: Space Grotesk;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15.31px;
+    color: red;
+    
 }

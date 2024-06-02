@@ -1,0 +1,41 @@
+@media (width >= 1024px) {
+
+    body {
+        height: 100vh;
+        display: flex;
+    }
+
+    .cards-container {
+        width: 40%;
+        height: inherit;
+    }
+
+    .back-side-box {
+        width: 400px;
+        height: 200px;
+        align-self: center;
+        position: relative;
+        top: 100px;
+        left: 200px;
+    }
+
+    .front-side-box {
+        width: 400px;
+        height: 200px;
+        left: 150px;
+    }
+
+    .container {
+        
+        height: 100vh;
+        justify-content: center;
+    }
+
+    .input-container {
+        margin-top: 0;
+    }
+
+    .check {
+        margin-top: 0;
+    }
+}
